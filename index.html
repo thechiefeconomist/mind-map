@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mind Map App v2</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Map App v2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="welcome-instructions">
+    <h1>Welcome to Mind Map v2</h1>
+    <p>This application helps you create and visualize your ideas in a mind map format. Simply start by typing your central idea below and use the following shortcuts to expand your map:</p>
+    <ul>
+        <li><strong>Shift + Enter:</strong> Create a child node.</li>
+        <li><strong>Shift + Tab:</strong> Create a sibling node.</li>
+    </ul>
+    <p>Can't save edit or delete yet lol yeet</p>
+</div>
+
 <div id="app">
     <canvas id="mindMapCanvas"></canvas>
     <input type="text" id="nodeInput" placeholder="Type node text here" autofocus>
 </div>
+
 <script src="script.js"></script>
 </body>
 </html>
